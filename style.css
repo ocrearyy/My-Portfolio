@@ -1,25 +1,15 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+}
 .my-logo {
-  /* My Logo */
-  font-family: Poppins, serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 20px;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+    color: #6070FF;
+}
 
-  /* identical to box height, or 111% */
-
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  /* Primary/B400 */
-
-  color: #6070ff;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  margin: 0;
+.head-line {
+background-image: ;
 }
