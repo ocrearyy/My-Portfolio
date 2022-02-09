@@ -1,15 +1,51 @@
 header {
     display: flex;
     justify-content: flex-start;
+	margin-bottom: 0rem;
 }
 .my-logo {
-	font-family: sans-serif;
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
     color: #6070FF;
 }
-
-.head-line {
-background-image: ;
+.img-background {
+	background-image: url(images/header-shapes\ mobile@2x.svg); 
+	background-size: 100%;
+}
+.head-line h1 {
+	display: flex;
+	align-items: center;
+	font-family: sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+color:  #172B4D; 
+padding-top: 2rem;
+}
+.head-line p {
+	font-family: sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #344563;
+}
+.head-line h2 {
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color:  #7F8CFF;
+}
+.head-line ul {
+	display: inline;
+	margin-left: -2.5rem;
+}
+.head-line ul li {
+margin-right: 2rem;
+list-style: none;
+display: inline;
+}
+.head-line ul li a i {
+	color: #505F79;
 }
