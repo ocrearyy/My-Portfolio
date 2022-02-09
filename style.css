@@ -1,25 +1,25 @@
-.myLogo {
-    /* My Logo */
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 18px;
-line-height: 20px;
-/* identical to box height, or 111% */
+.my-logo {
+  /* My Logo */
+  font-family: Poppins, serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 20px;
 
-display: flex;
-align-items: center;
-text-align: center;
+  /* identical to box height, or 111% */
 
-/* Primary/B400 */
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-color: #6070FF;
+  /* Primary/B400 */
 
+  color: #6070ff;
 
-/* Inside auto layout */
+  /* Inside auto layout */
 
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 0px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0;
 }
