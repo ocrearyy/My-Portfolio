@@ -1,7 +1,12 @@
-header {
+.navBar {
   display: flex;
-  border: 10px solid goldenrod;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 0 2rem 0 1rem;
+}
+
+.menuDropDown {
+  /* max-width: 100%;
+  height: auto; */
 }
 
 .my-logo {
@@ -9,26 +14,31 @@ header {
   font-weight: bold;
   font-size: 18px;
   color: #6070ff;
+  /* justify-content: flex-start; */
 }
 
 .img-background {
   background-image: url(images/header-shapes\ mobile@2x.svg);
-  background-size: 100%;
+  max-width: 100%;
+  height: auto;
+  /* background-size: 100%; */
 }
 
-.head-line h1 {
+.section1 h1 {
   display: flex;
-  border: 10px solid goldenrod;
+  flex-wrap: wrap;
   align-items: center;
   font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   color: #172b4d;
-  padding-top: 2rem;
+  padding: 6rem 2rem 0 1rem;
 }
 
-.head-line p {
+.section1 p {
+  display: flex;
+  padding: 0 2rem 0 1rem;
   font-family: sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -36,7 +46,9 @@ header {
   color: #344563;
 }
 
-.head-line h2 {
+.section1 h2 {
+  display: flex;
+  padding: 0 2rem 0 1rem;
   font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -44,11 +56,11 @@ header {
   color: #7f8cff;
 }
 
-.head-line ul {
+.section1 ul {
   display: flex;
-  border: 10px solid goldenrod;
+  list-style: none;
+  padding: 0 2rem 0 1rem;
+
 }
 
-.head-line ul li { list-style: none; }
 
-.head-line ul li a i { color: #505f79; }
