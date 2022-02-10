@@ -1,5 +1,6 @@
 header {
     display: flex;
+	border: 10px solid goldenrod;
     justify-content: flex-start;
 	margin-bottom: 0rem;
 }
@@ -15,6 +16,7 @@ header {
 }
 .head-line h1 {
 	display: flex;
+	border: 10px solid goldenrod;
 	align-items: center;
 	font-family: sans-serif;
 font-style: normal;
@@ -38,13 +40,12 @@ color: #344563;
 	color:  #7F8CFF;
 }
 .head-line ul {
-	display: inline;
-	margin-left: -2.5rem;
+	display: flex;
+	border: 10px solid goldenrod;
+	margin-left: 0rem;
 }
-.head-line ul li {
-margin-right: 2rem;
+.head-line ul li {	
 list-style: none;
-display: inline;
 }
 .head-line ul li a i {
 	color: #505F79;
