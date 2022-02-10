@@ -19,18 +19,18 @@ header {
 	border: 10px solid goldenrod;
 	align-items: center;
 	font-family: sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 40px;
-color:  #172B4D; 
-padding-top: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    color:  #172B4D; 
+    padding-top: 2rem;
 }
 .head-line p {
 	font-family: sans-serif;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-color: #344563;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #344563;
 }
 .head-line h2 {
 	font-family: sans-serif;
@@ -44,8 +44,8 @@ color: #344563;
 	border: 10px solid goldenrod;
 	margin-left: 0rem;
 }
-.head-line ul li {	
-list-style: none;
+.head-line ul li {
+	list-style: none;
 }
 .head-line ul li a i {
 	color: #505F79;
