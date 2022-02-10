@@ -1,56 +1,54 @@
 header {
-    display: flex;
-	border: 10px solid goldenrod;
-    justify-content: flex-start;
-	margin-bottom: 0rem;
+  display: flex;
+  border: 10px solid goldenrod;
+  justify-content: flex-start;
 }
 
 .my-logo {
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-    color: #6070FF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  color: #6070ff;
 }
 
 .img-background {
-	background-image: url(images/header-shapes\ mobile@2x.svg); 
-	background-size: 100%;
+  background-image: url(images/header-shapes\ mobile@2x.svg);
+  background-size: 100%;
 }
 
 .head-line h1 {
-	display: flex;
-	border: 10px solid goldenrod;
-	align-items: center;
-	font-family: sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 40px;
-    color:  #172B4D; 
-    padding-top: 2rem;
+  display: flex;
+  border: 10px solid goldenrod;
+  align-items: center;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  color: #172b4d;
+  padding-top: 2rem;
 }
 
 .head-line p {
-	font-family: sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    color: #344563;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #344563;
 }
 
 .head-line h2 {
-	font-family: sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	font-size: 16px;
-	color:  #7F8CFF;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
 }
 
 .head-line ul {
-	display: flex;
-	border: 10px solid goldenrod;
-	margin-left: 0rem;
+  display: flex;
+  border: 10px solid goldenrod;
 }
 
 .head-line ul li { list-style: none; }
 
-.head-line ul li a i { color: #505F79; }
+.head-line ul li a i { color: #505f79; }

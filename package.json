@@ -1,0 +1,26 @@
+{
+  "name": "Portfolio-setup-and-mobile-version-skeleton",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oshanedesign/Portfolio-setup-and-mobile-version-skeleton.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oshanedesign/Portfolio-setup-and-mobile-version-skeleton/issues"
+  },
+  "homepage": "https://github.com/oshanedesign/Portfolio-setup-and-mobile-version-skeleton#readme",
+  "devDependencies": {
+    "stylelint": "^14.5.0",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
