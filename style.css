@@ -4,16 +4,19 @@ header {
     justify-content: flex-start;
 	margin-bottom: 0rem;
 }
+
 .my-logo {
 	font-style: normal;
 	font-weight: bold;
 	font-size: 18px;
     color: #6070FF;
 }
+
 .img-background {
 	background-image: url(images/header-shapes\ mobile@2x.svg); 
 	background-size: 100%;
 }
+
 .head-line h1 {
 	display: flex;
 	border: 10px solid goldenrod;
@@ -25,6 +28,7 @@ header {
     color:  #172B4D; 
     padding-top: 2rem;
 }
+
 .head-line p {
 	font-family: sans-serif;
     font-style: normal;
@@ -32,6 +36,7 @@ header {
     font-size: 16px;
     color: #344563;
 }
+
 .head-line h2 {
 	font-family: sans-serif;
 	font-style: normal;
@@ -39,14 +44,13 @@ header {
 	font-size: 16px;
 	color:  #7F8CFF;
 }
+
 .head-line ul {
 	display: flex;
 	border: 10px solid goldenrod;
 	margin-left: 0rem;
 }
-.head-line ul li {
-	list-style: none;
-}
-.head-line ul li a i {
-	color: #505F79;
-}
+
+.head-line ul li { list-style: none; }
+
+.head-line ul li a i { color: #505F79; }
