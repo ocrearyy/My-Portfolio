@@ -25,19 +25,6 @@ To get a local copy up and running follow these simple example steps.
 1. Git clone git@github.com:oshanedesign/Portfolio-setup-and-mobile-version-skeleton.git 
 2. Cd Portfolio-setup-and-mobile-version-skeleton
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
 
 ## Authors
 
