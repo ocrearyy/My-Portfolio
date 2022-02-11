@@ -6,12 +6,12 @@
   }
 
   .my-logo {
-	font-family: "Poppins", Arial, sans-serif;
+    font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     color: #6070ff;
-	text-decoration: none;
+    text-decoration: none;
   }
 
   .img-background {
@@ -25,7 +25,7 @@
   .section1 {
     display: flex;
   }
-  
+
   .section1 h1 {
     display: flex;
     flex-wrap: wrap;
