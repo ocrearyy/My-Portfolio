@@ -57,6 +57,10 @@
     color: #344563;
   }
 
+  .con {
+    display: flex;
+  }
+
   .connect {
     display: flex;
     padding: 0 2rem 0 1rem;
@@ -67,13 +71,18 @@
     color: #7f8cff;
   }
 
+  .connect-List a img {
+    display: flex;
+    padding-right: 2.5rem;
+  }
+
   .section1 ul {
     display: flex;
     list-style: none;
     padding: 0 2rem 0 1rem;
   }
 
-  .main-Grid {
+  .main-Grid-Works {
     display: grid;
     grid-template-columns: 100%;
     row-gap: 8rem;
@@ -92,6 +101,7 @@
     padding: 1rem 1rem 3rem 1rem;
     border-radius: 2rem;
     margin: 0 1.5rem 0 1.5rem;
+    align-items: flex-start;
   }
 
   .tonic {
@@ -141,11 +151,16 @@
     width: 90%;
     height: auto;
     flex-wrap: wrap;
+    line-height: 1.5rem;
+  }
+
+  .lang {
+    display: grid;
+    grid-template-columns: 15% 15% 15%;
   }
 
   .languages {
-    display: grid;
-    grid-template-columns: 15% 15% 15%;
+    display: flex;
     list-style: none;
     padding-left: 0.1rem;
     margin-top: 0.1rem;
@@ -154,9 +169,14 @@
   .languages-List {
     color: #6070ff;
     background-color: #ebebff;
-    border-radius: 1rem;
-    font-weight: 700;
+    border-radius: 0.3rem;
+    font-weight: 500;
     border: none;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-right: 1rem;
   }
 
   .languages-List:hover {
@@ -172,7 +192,6 @@
   }
 
   .btn-Project {
-    width: 30%;
     font-style: normal;
     align-items: center;
     text-align: center;
