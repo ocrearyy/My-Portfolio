@@ -2,9 +2,11 @@
 
 # Portfolio Setup and mobile version skeleton
 
-> This the first milestone in the process of creating my portfolio website, I will:
+> This the Second milestone in the process of creating my portfolio website, I will:
 - set up a new repository and prepare it for development using best practices (e.g. linters).
 - build the first 2 sections of the mobile website using the template i chose in the previous step.
+-build the middle section of the mobile website
+-Built the about section of the mobile website 
 
 
 ## Built With

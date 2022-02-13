@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/oshanedesign/Portfolio-setup-and-mobile-version-skeleton#readme",
   "devDependencies": {
+    "hint": "^6.1.9",
     "stylelint": "^14.5.0",
     "stylelint-config-standard": "^21.0.0",
     "stylelint-csstree-validator": "^1.9.0",
