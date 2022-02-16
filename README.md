@@ -34,6 +34,10 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@oshanedesign](https://github.com/oshanedesign)
 
+👤 **Author2**
+
+- GitHub: [@jsug9](https://github.com/jsug9)
+
 
 ## 🤝 Contributing
 
