@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 @media only screen and (max-width: 600px) {
   .main-Container {
     background-color: #e5e5e5;
