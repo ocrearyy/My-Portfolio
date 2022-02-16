@@ -325,6 +325,7 @@
     font-weight: bold;
   }
 
+
   #form {
     background: #6070ff;
     width: 400px;
@@ -440,4 +441,5 @@
     text-align: center;
     padding-top: 1rem;
   }
+  
 }
