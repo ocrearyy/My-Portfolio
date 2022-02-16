@@ -132,32 +132,31 @@
             </div>
         </section>
         <Section class="form-Container">
-          <form id="form" action="/my-contact-form-page" method="post">
-              <h2 id="contact-Me">Contact Me</h2>
-              <p class="contact-Me-Paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-              <ul>
-                  <li>
-                    <label for="name"></label>
-                    <input type="text" id="name" name="user_name" placeholder="Full Name">
-                  </li>
-                  <li>
-                    <label for="mail"></label>
-                    <input type="email" id="mail" name="user_email" placeholder="example@gmail.com">
-                  </li>
-                  <li>
-                    <label for="msg"></label>
-                    <textarea id="msg" name="user_message" placeholder="Write your message here..."></textarea>
-                  </li>
-                  <li class="button">
-                      <button id="last-Button" type="submit">Get in Touch</button>
+            <form id="form" action="/my-contact-form-page" method="post">
+                <h2 id="contact-Me">Contact Me</h2>
+                <p class="contact-Me-Paragraph">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
+                <ul class="form-Ul">
+                    <li class="form-Li">
+                      <label for="name"></label>
+                      <input type="text" id="name" name="user_name" placeholder="Full Name" required>
                     </li>
-                 </ul>
-                 <div class="line">
-                 <img src="images/Shape2.svg" alt="">
-              </div>
-              </div>
-          </form>
-      </section>  
+                    <li class="form-Li">
+                      <label for="mail"></label>
+                      <input type="email" id="mail" name="user_email" placeholder="example@gmail.com" required>
+                    </li>
+                    <li class="form-Li">
+                      <label for="msg"></label>
+                      <textarea id="msg" name="user_message" placeholder="Write your message here..." required></textarea>
+                    </li>
+                    <li class="button">
+                        <button id="last-Button" type="submit">Get in Touch</button>
+                      </li>
+                   </ul>
+                   <div class="line">
+                   <img src="images/Shape2.svg" alt="">
+                </div>
+            </form>
+    </section>
     </div>
 
 </body>

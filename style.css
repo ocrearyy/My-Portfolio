@@ -219,7 +219,6 @@
     /* display: flex; */
     background-color: white;
     border-top-right-radius: 5rem;
-    margin-bottom: 5rem;
   }
 
   .about-Myself p {
@@ -325,35 +324,36 @@
     padding-top: 1rem;
     font-weight: bold;
   }
-  
+
   #form {
     background: #6070ff;
     width: 400px;
     padding: 1em;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
     border-top-left-radius: 5rem;
     background-image: url(images/contact\ form\ shapes-mobile2.svg);
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-position: right -1px top 10px;
   }
 
-  form ul {
+  .form-Ul {
     list-style: none;
     padding: 0;
     margin: 0;
   }
 
-  form li + li {
+  .form-Li {
     margin-top: 1em;
     border-radius: 3rem;
   }
+
   label {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
     text-align: right;
   }
-  
+
   input,
   textarea {
     font: 1em sans-serif;
@@ -362,24 +362,21 @@
     border: 1px solid #999;
     border-radius: 0.5rem;
   }
-  
+
+  textarea {
+    /* Align multiline text fields with their labels */
+    vertical-align: top;
+    height: 5em;
+  }
+
   input:focus,
   textarea:focus {
     /* Additional highlight for focused elements */
     border-color: #000;
   }
-  
-  textarea {
-    /* Align multiline text fields with their labels */
-    vertical-align: top;
-  
-    /* Provide space to type some text */
-    height: 5em;
-  }
-  
+
   .button {
     /* Align buttons with the text fields */
-    /* same size as the label elements */
   }
 
   #last-Button {
@@ -392,7 +389,9 @@
     border: 0.5px solid #396df2;
     font-size: 20px;
     background-color: white;
+    margin-top: 1rem;
   }
+
   #last-Button:hover {
     color: white;
     cursor: pointer;
@@ -404,32 +403,19 @@
     cursor: pointer;
     background-color: #2234d3;
   }
-  button {
-    /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-    /* margin-left: .5em; */
-  }
-  
-  input:invalid:required {
-    background-image: linear-gradient(to right, pink, lightgreen);
-  }
-  
-  input:valid {
-    border: 2px solid black;
-  }
 
   .form-Container {
     background-color: white;
     display: flex;
   }
+
   #contact-Me {
     font-family: "Poppins", Arial, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
     text-align: center;
-    color: #ffffff;
-    margin-top: 0rem;
+    color: #fff;
     padding-top: 3rem;
   }
 
@@ -442,8 +428,8 @@
     text-align: center;
     padding-right: 1rem;
   }
+
   .img2-background {
-    
     background-size: cover;
     max-width: 100%;
     height: auto;
