@@ -369,7 +369,7 @@
   input,
   textarea {
     font-family: "Poppins", Arial, sans-serif;
-    width: 300px;
+    width: 100%;
     box-sizing: border-box;
     border: 1px solid #999;
     border-radius: 0.5rem;
