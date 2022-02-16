@@ -326,6 +326,8 @@
   }
 
   #form {
+    display: flex;
+    flex-direction: column;
     background: #6070ff;
     width: 400px;
     padding: 1em;
@@ -334,16 +336,22 @@
     background-image: url(images/contact\ form\ shapes-mobile2.svg);
     background-repeat: no-repeat;
     background-position: right -1px top 10px;
+    padding-bottom: 1px;
+  }
+
+  #msg {
+    min-width: 300px;
+min-height: 170px;
   }
 
   .form-Ul {
     list-style: none;
-    padding: 0;
     margin: 0;
+    padding: 0;
   }
 
   .form-Li {
-    margin-top: 1em;
+    margin-top: 0.2rem;
     border-radius: 3rem;
   }
 
@@ -356,11 +364,23 @@
 
   input,
   textarea {
-    font: 1em sans-serif;
+    font: "Poppins";
     width: 300px;
     box-sizing: border-box;
     border: 1px solid #999;
     border-radius: 0.5rem;
+    padding: 10px;
+  }
+
+ #name::placeholder {
+    color: #172b4d;
+  }
+
+   #mail::placeholder {
+    color: #172b4d;
+   }
+  textarea::placeholder {
+    color: #172b4d;
   }
 
   textarea {
@@ -417,6 +437,8 @@
     text-align: center;
     color: #fff;
     padding-top: 3rem;
+    display: flex;
+    justify-content: center;
   }
 
   .contact-Me-Paragraph {
