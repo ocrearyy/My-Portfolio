@@ -193,6 +193,7 @@ body {
     color: white;
     cursor: pointer;
     background-color: #6071fc;
+    transition: background-color 2s;
   }
 
   .languages-List:focus {
