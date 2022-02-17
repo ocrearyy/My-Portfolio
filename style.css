@@ -414,19 +414,6 @@ textarea:focus {
 .button {
   /* Align buttons with the text fields */
 }
-=======
-  #last-Button {
-    border-radius: 0.4rem;
-    font-style: normal;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-    padding: 1rem;
-    border: 0.5px solid #396df2;
-    font-size: 20px;
-    background-color: white;
-    margin-top: 1rem;
-  }
 
 #last-Button {
   border-radius: 0.4rem;
