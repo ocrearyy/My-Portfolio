@@ -404,10 +404,6 @@ body {
     border-color: #000;
   }
 
-  .button {
-    /* Align buttons with the text fields */
-  }
-
   #last-Button {
     border-radius: 0.4rem;
     font-style: normal;
