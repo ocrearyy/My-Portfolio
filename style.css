@@ -642,8 +642,12 @@ textarea:focus {
   }
 
   .desktop-About-me {
-    margin-left: 6rem;
+    margin-left: 3rem;
     margin-top: 3rem;
+  }
+
+  .flip {
+    order: 1;
   }
 
   .drop-Tool {
