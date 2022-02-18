@@ -27,16 +27,12 @@ body {
 }
 
 .section1 {
-  /* display: flex; */
-  background-color: white;
+  /* background-color: white;
   border-bottom-left-radius: 5rem;
   margin-bottom: 5rem;
-  /* background-image: url(images/header-shapes\ mobile@2x.svg); */
-  /* background-repeat: no-repeat; */
   background-size: contain;
   height: 100%;
-  padding-bottom: 10rem;
-  /* background: url(images/header-shapes\ mobile@2x.svg); */
+  padding-bottom: 10rem; */
   background: #fff 50% url(images/header-shapes\ mobile@2x.svg) no-repeat;
 }
 
@@ -50,7 +46,7 @@ body {
   font-size: 40px;
   color: #172b4d;
   padding: 6rem 2rem 0 1rem;
-  margin-top: 0rem;
+  margin-top: 0.01rem;
 }
 
 .section1 p {
@@ -111,13 +107,13 @@ body {
 }
 
 .works-Change {
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    padding: 1rem 1rem 3rem 1rem;
-    border-radius: 2rem;
-    margin: 0 1.5rem 0 1.5rem;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 1rem 1rem 3rem 1rem;
+  border-radius: 2rem;
+  margin: 0 1.5rem 0 1.5rem;
+  align-items: flex-start;
 }
 
 .works {
@@ -549,19 +545,17 @@ textarea:focus {
   }
 
   .section1 {
-    /* display: flex; */
-  background-color: white;
-  border-bottom-left-radius: 5rem;
-  margin-bottom: 5rem;
-  background-image: url(images/desktopHeaderbg.svg); 
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: fit-content;
-  height: 100%;
-  padding-bottom: 10rem;
-  /* background: url(images/header-shapes\ mobile@2x.svg); */
-  /* background: #fff 50% url(images/header-shapes\ mobile@2x.svg) no-repeat; */
+    background-color: white;
+    border-bottom-left-radius: 5rem;
+    margin-bottom: 5rem;
+    background-image: url(images/desktopHeaderbg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: fit-content;
+    height: 100%;
+    padding-bottom: 10rem;
   }
+
   .section1 h1 {
     display: flex;
     flex-wrap: wrap;
@@ -624,14 +618,9 @@ textarea:focus {
   }
 
   .about-Myself {
-    display: flex;
     background-color: white;
     border-top-right-radius: 5rem;
-    background-color: white;
     padding: 1rem 1rem 8rem 1rem;
-    /* border-radius: 2rem; */
-    /* margin: 0 1.5rem 0 1.5rem; */
-    /* align-items: flex-start; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -650,7 +639,7 @@ textarea:focus {
     font-size: 20px;
     margin-left: 1rem;
     background: white;
-}
+  }
 
   .desktop-About-me {
     margin-left: 6rem;
@@ -662,20 +651,11 @@ textarea:focus {
   }
 
   #form {
-    
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* background: #6070ff; */
-    /* width: 100%; */
-    /* padding: 1em; */
-    /* border: 1px solid #fff; */
-    /* border-top-left-radius: 5rem; */
     background-image: url(images/desktop-contact-form-background-shapes.svg);
     background-repeat: no-repeat;
-    /* background-position: right -1px top 10px; */
     padding-bottom: 20px;
     background-size: contain;
-}
+  }
 
   .desktop-Form-Center {
     margin-left: 17rem;
@@ -726,11 +706,9 @@ textarea:focus {
     border-radius: 0.5rem;
     margin: 0.5rem;
     padding: 1rem;
-    /* text-align: left; */
-    /* justify-content: left; */
     display: flex;
     flex-direction: column;
-}
+  }
 
   .connect1 {
     display: flex;
@@ -743,24 +721,17 @@ textarea:focus {
     margin-top: 2rem;
   }
 
-  
-  .desktop-Img-Works {
-
-  }
-  
-  .desktop-Text-Works {
-   
-  }
-  
-  input, textarea {
+  input,
+  textarea {
     font-family: "Poppins", Arial, sans-serif;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #999;
-    border-radius: 0rem;
+    border-radius: 0.1rem;
     padding: 10px;
   }
-.line {
+
+  .line {
     display: none;
   }
 
@@ -769,14 +740,14 @@ textarea:focus {
     padding-top: 1rem;
     font-weight: bold;
     padding-left: 0.1rem;
-}
+  }
 
-.ellipse-H {
-  /* float: right; */
-  padding-right: 2rem;
-  padding-top: 1rem;
-  font-weight: bold;
-  padding-left: 0.1rem;
+  .ellipse-H {
+    /* float: right; */
+    padding-right: 2rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    padding-left: 0.1rem;
   }
 
   .ellipse-C {
