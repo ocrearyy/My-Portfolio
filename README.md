@@ -1,22 +1,21 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio Setup and mobile version skeleton
+# Portfolio Setup for Desktop and mobile version skeleton
 
-> This the Second milestone in the process of creating my portfolio website, I will:
-- set up a new repository and prepare it for development using best practices (e.g. linters).
-- build the first 2 sections of the mobile website using the template i chose in the previous step.
--build the middle section of the mobile website
--Built the about section of the mobile website 
+> This is my Portfolio page created as part of microverse requirement to utilize my skills learned to build a portfolio page to showcase my work. 
 
 
 ## Built With
 
+- VS Code 
+- Git, Github 
+- Figma
 - Html, Css
 - Linters, hintrc, stylelintrc.json
 
-## Live Demo (if available)
+## Live Demo (Responsive Web Design accessible on Desktop and mobile)
 
-
+https://oshanedesign.github.io/My-Portfolio/ 
 
 
 ## Getting Started
