@@ -535,7 +535,7 @@ textarea:focus {
     order: 0;
     flex-grow: 0;
     margin: 0.1px 10px;
-    color: #344563;
+    color: #6071fc;
     position: static;
     width: 46px;
     height: 20px;
@@ -564,7 +564,7 @@ textarea:focus {
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
-    color: #172b4d;
+    color: #000;
     padding: 10rem 2rem 0 1rem;
     margin-left: 10rem;
     margin-bottom: 1rem;
