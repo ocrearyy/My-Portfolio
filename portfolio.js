@@ -14,3 +14,5 @@ disappearMenu.addEventListener('click', display);
 for (let i = 0; i < disappearMenuOptions.length; i += 1) {
   disappearMenuOptions[i].addEventListener('click', display);
 }
+
+
