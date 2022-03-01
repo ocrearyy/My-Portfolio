@@ -31,7 +31,6 @@ body {
   color: #000;
   background-color: rgba(87, 77, 255, 0.8);
   backdrop-filter: blur(6px);
-
 }
 
 .mobile-menu-header {
@@ -53,7 +52,6 @@ body {
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  
 }
 
 .my-logo {
