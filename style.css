@@ -9,12 +9,50 @@ body {
 .navBar {
   display: flex;
   justify-content: space-between;
-  padding: 0 2rem 0 1rem;
+  padding-right: 2rem;
   background-color: white;
 }
 
 .desktop-Nav {
   display: none;
+}
+
+.default {
+  display: none;
+}
+
+.mobile-menu {
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  background-color: rgba(87, 77, 255, 0.8);
+  backdrop-filter: blur(6px);
+}
+
+.mobile-menu-header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  padding-top: 2rem;
+}
+
+.mobile-menu-li {
+  list-style: none;
+  padding-bottom: 2rem;
+}
+
+.mobile-menu-li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Poppins", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
 }
 
 .my-logo {
@@ -421,10 +459,6 @@ input:focus,
 textarea:focus {
   /* Additional highlight for focused elements */
   border-color: #000;
-}
-
-.button {
-  /* Align buttons with the text fields */
 }
 
 #last-Button {
