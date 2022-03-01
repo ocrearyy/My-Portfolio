@@ -27,6 +27,14 @@ body {
 
 .show {
   display: block;
+  position: fixed;
+  top: 10px;
+  bottom: 10px;
+  border-radius: 0.5rem;
+  background: white;
+  left: 2rem;
+  right: 2rem;
+  padding: 1rem;
 }
 
 .popup-paragraph {
