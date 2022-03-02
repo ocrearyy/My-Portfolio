@@ -167,10 +167,7 @@ body {
   padding: 0 2rem 0 1rem;
 }
 
-.span1 {
-  display: flex;
-  text-color: red;
-}
+
 
 .main-Grid-Works {
   display: grid;
