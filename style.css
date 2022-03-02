@@ -21,6 +21,9 @@ body {
   display: none;
 }
 
+.popup-buttons {
+  display: flex;
+}
 .popup-default {
   display: none;
 }
@@ -55,6 +58,7 @@ body {
   padding: 10px;
   height: 55px;
   min-width: 120px;
+  margin-right: 1rem;
 }
 
 .live-link,
@@ -64,6 +68,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.x-display{
+  float: right;
+  margin: 10px;
 }
 
 .mobile-menu {
