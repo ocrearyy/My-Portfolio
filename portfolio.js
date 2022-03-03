@@ -1,12 +1,5 @@
-const appearMenu = document.querySelector('.menuDropDown');
-const mobileMenu = document.querySelector('.default');
-const disappearMenu = document.querySelector('.x-icon');
-const disappearMenuOptions = document.querySelectorAll('.mobile-menu-li');
-const popupClick = document.querySelectorAll('.btn-Project');
-
 const portfolio = [
-  // project-one-object 
-  {
+   {
     img: 'images/Snapshoot-Portfolio1.svg',
     name: 'Tonic',
     information1: 'CANOPY',
@@ -21,51 +14,51 @@ const portfolio = [
     span1: 'See live',
     span2: 'See source',
   },
-  // project-two-object {
-  //   img: 'images/Snapshoot-Portfolio2.svg',
-  //   name: 'Multi-Post Stories',
-  //   information1: 'CANOPY',
-  //   information2: 'Back End Dev',
-  //   information3: '2015',
-  //   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  //   technolgies1: 'html',
-  //   technologies2: 'css',
-  //   technologies3: 'javascript',
-  //   seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
-  //   seeSource: 'https://github.com/oshanedesign/My-Portfolio',
-  //   span1: 'See live',
-  //   span2: 'See source',
-  // },
-  // project-three-object {
-  //   img: 'images/Snapshoot-Portfolio3.svg',
-  //   name: 'Tonic',
-  //   information1: 'CANOPY',
-  //   information2: 'Back End Dev',
-  //   information3: '2015',
-  //   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  //   technolgies1: 'html',
-  //   technologies2: 'css',
-  //   technologies3: 'javascript',
-  //   seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
-  //   seeSource: 'https://github.com/oshanedesign/My-Portfolio',
-  //   span1: 'See live',
-  //   span2: 'See source',
-  // },
-  // project-four-object {
-  //   img: 'images/Snapshoot-Portfolio4.svg',
-  //   name: 'Multi-Post Stories',
-  //   information1: 'CANOPY',
-  //   information2: 'Back End Dev',
-  //   information3: '2015',
-  //   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-  //   technolgies1: 'html',
-  //   technologies2: 'css',
-  //   technologies3: 'javascript',
-  //   seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
-  //   seeSource: 'https://github.com/oshanedesign/My-Portfolio',
-  //   span1: 'See live',
-  //   span2: 'See source',
-  // },
+  {
+    img: 'images/Snapshoot-Portfolio2.svg',
+    name: 'Multi-Post Stories',
+    information1: 'CANOPY',
+    information2: 'Back End Dev',
+    information3: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    technolgies1: 'html',
+    technologies2: 'css',
+    technologies3: 'javascript',
+    seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
+    seeSource: 'https://github.com/oshanedesign/My-Portfolio',
+    span1: 'See live',
+    span2: 'See source',
+  },
+  {
+    img: 'images/Snapshoot-Portfolio3.svg',
+    name: 'Tonic',
+    information1: 'CANOPY',
+    information2: 'Back End Dev',
+    information3: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    technolgies1: 'html',
+    technologies2: 'css',
+    technologies3: 'javascript',
+    seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
+    seeSource: 'https://github.com/oshanedesign/My-Portfolio',
+    span1: 'See live',
+    span2: 'See source',
+  },
+  {
+    img: 'images/Snapshoot-Portfolio4.svg',
+    name: 'Multi-Post Stories',
+    information1: 'CANOPY',
+    information2: 'Back End Dev',
+    information3: '2015',
+    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    technolgies1: 'html',
+    technologies2: 'css',
+    technologies3: 'javascript',
+    seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
+    seeSource: 'https://github.com/oshanedesign/My-Portfolio',
+    span1: 'See live',
+    span2: 'See source',
+  },
 ];
 function getHtml(projectData) {
   return `
@@ -107,9 +100,70 @@ function getHtml(projectData) {
     </button>
   `;
 }
+function getProject(projectData) {
+  return `
+  <div class="desktop-Img-Works">
+                    <img class="snapshoot" src="images/Snapshoot-Portfolio1.svg" alt="Snapshoot-Image">
+                </div>
+                <div class="desktop-Text-Works">
+                    <h2 class="tonic">Tonic</h2>
+                    <ul class="sub-Points">
+                        <li class="canopy">${projectData.information1}</li>
+                        <li class="sub-Text">${projectData.information2}</li>
+                        <li class="sub-Text">${projectData.information3}</li>
+                    </ul>
+                    <p class="description-Text">${projectData.description}</p>
+                    <div class="lang">
+                        <ul class="languages">
+                            <li><button class="languages-List" type="submit">${projectData.technolgies1}</button></li>
+                            <li><button class="languages-List" type="submit">${projectData.technologies2}</button></li>
+                            <li><button class="languages-List" type="submit">${projectData.technologies3}</button></li>
+                        </ul>
+                    </div>
+                    <button class="btn-Project" type="submit">See Project</button>
+                </div>`;
+}
+function getOtherProject(projectData) {
+  return `
+  <div class="desktop-Img-Works flip">
+  <img class="snapshoot" src="images/Snapshoot-Portfolio2.svg" alt="Snapshoot-Image">
+</div>
+<div class="desktop-Text-Works">
+  <h2 class="tonic">Multi-Post Stories</h2>
+  <ul class="sub-Points">
+      <li class="canopy">${projectData.information1}</li>
+      <li class="sub-Text">${projectData.information2}</li>
+      <li class="sub-Text">${projectData.information3}</li>
+  </ul>
+  <p class="description-Text">${projectData.description}</p>
+  <div class="lang">
+      <ul class="languages">
+          <li><button class="languages-List" type="submit">${projectData.technolgies1}</button></li>
+          <li><button class="languages-List" type="submit">${projectData.technologies2}</button></li>
+          <li><button class="languages-List" type="submit">${projectData.technolgies3}</button></li>
+      </ul>
+  </div>
+  <button class="btn-Project" type="submit">See Project</button>
+</div>`;
+}
 const popupMenu = document.createElement('div');
 popupMenu.innerHTML = getHtml(portfolio[0]);
 document.body.appendChild(popupMenu);
+const project1 = document.querySelector('.works');
+project1.innerHTML = getProject(portfolio[1]);
+const project2 = document.querySelector('.works-Change');
+project2.innerHTML = getOtherProject(portfolio[2]);
+const project3 = document.querySelector('.project3');
+project3.innerHTML = getProject(portfolio[3]);
+const project4 = document.querySelector('.project4');
+project4.innerHTML = getOtherProject(portfolio[2]);
+const appearMenu = document.querySelector('.menuDropDown');
+const mobileMenu = document.querySelector('.default');
+const disappearMenu = document.querySelector('.x-icon');
+const disappearMenuOptions = document.querySelectorAll('.mobile-menu-li');
+const popupClick = document.querySelectorAll('.btn-Project');
+
+
 function display() {
   mobileMenu.classList.toggle('mobile-menu');
 }
