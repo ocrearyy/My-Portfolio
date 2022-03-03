@@ -2,10 +2,9 @@ const appearMenu = document.querySelector('.menuDropDown');
 const mobileMenu = document.querySelector('.default');
 const disappearMenu = document.querySelector('.x-icon');
 const disappearMenuOptions = document.querySelectorAll('.mobile-menu-li');
-const popupOpen = document.querySelector('.popup-default');
 const popupClick = document.querySelectorAll('.btn-Project');
 
-let portfolio = [
+const portfolio = [
   {
     img: 'images/Snapshoot-Portfolio1.svg',
     name: 'Tonic',
@@ -20,9 +19,8 @@ let portfolio = [
     seeSource: 'https://github.com/oshanedesign/My-Portfolio',
     span1: 'See live',
     span2: 'See source',
-  }
-]
-  ;
+  },
+];
 function getHtml(projectData) {
   return `
   <img class="x-display" src="images/xim.svg">
@@ -63,7 +61,6 @@ function getHtml(projectData) {
     </button>
   `;
 }
-const popupwindow = document.querySelector('show')
 const popupMenu = document.createElement('div');
 popupMenu.innerHTML = getHtml(portfolio[0]);
 document.body.appendChild(popupMenu);
@@ -82,4 +79,4 @@ for (let j = 0; j < popupClick.length; j += 1) {
 const popupClose = document.querySelector('.x-display');
 appearMenu.addEventListener('click', display);
 disappearMenu.addEventListener('click', display);
-popupClose.addEventListener('click', display2); 
+popupClose.addEventListener('click', display2);
