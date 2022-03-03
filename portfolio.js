@@ -149,6 +149,7 @@ function getOtherProject(projectData) {
 const popupMenu = document.createElement('div');
 popupMenu.innerHTML = getHtml(portfolio[0]);
 document.body.appendChild(popupMenu);
+popupMenu.className = 'popup-default';
 const project1 = document.querySelector('.works');
 project1.innerHTML = getProject(portfolio[1]);
 const project2 = document.querySelector('.works-Change');
@@ -179,3 +180,16 @@ const popupClose = document.querySelector('.x-display');
 appearMenu.addEventListener('click', display);
 disappearMenu.addEventListener('click', display);
 popupClose.addEventListener('click', display2);
+
+const emailAddress = document.getElementById('mail');
+const form = document.getElementById('form');
+const error = document.querySelector('#error');
+
+
+form.addEventListener('submit', (e) => {
+  if (emailAddress.value !== emailAddress.value.toLowerCase()) {
+    error.textContent = 'email should be lower case';
+      e.preventDefault();
+  }
+  else error.textContent = '';
+});
