@@ -21,6 +21,77 @@ body {
   display: none;
 }
 
+.popup-buttons {
+  display: flex;
+}
+
+.popup-default {
+  display: none;
+}
+
+.show {
+  display: block;
+  position: fixed;
+  top: 10px;
+  bottom: 10px;
+  border-radius: 0.5rem;
+  background: white;
+  left: 0.5rem;
+  right: 0.5rem;
+  padding: 1rem;
+  backdrop-filter: blur(2px);
+  overflow-y: scroll;
+}
+
+.disappear {
+  display: none;
+}
+
+.popup-paragraph {
+  color: #344563;
+  font-family: "Poppins", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.see-live,
+.see-source {
+  border-color: #6070ff;
+  border-radius: 0.5rem;
+  font-size: 15px;
+  background-color: white;
+  padding: 10px;
+  height: 55px;
+  min-width: 130px;
+  margin-right: 1rem;
+  color: #6070ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.live-link,
+.source-link {
+  text-decoration: none;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.x-display {
+  float: right;
+  margin: 10px;
+
+  /* background-image: url(images/xim.svg);
+  background-repeat: no-repeat; */
+
+  /* height: 25px;
+  width: 25px; */
+}
+
 .mobile-menu {
   width: 100vw;
   height: 100%;
