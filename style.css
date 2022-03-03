@@ -36,9 +36,11 @@ body {
   bottom: 10px;
   border-radius: 0.5rem;
   background: white;
-  left: 2rem;
-  right: 2rem;
+  left: 0.5rem;
+  right: 0.5rem;
   padding: 1rem;
+  backdrop-filter: blur(2px);
+  overflow-y: scroll;
 }
 
 .disappear {

@@ -5,6 +5,7 @@ const disappearMenuOptions = document.querySelectorAll('.mobile-menu-li');
 const popupClick = document.querySelectorAll('.btn-Project');
 
 const portfolio = [
+  // project-one-object 
   {
     img: 'images/Snapshoot-Portfolio1.svg',
     name: 'Tonic',
@@ -20,6 +21,51 @@ const portfolio = [
     span1: 'See live',
     span2: 'See source',
   },
+  // project-two-object {
+  //   img: 'images/Snapshoot-Portfolio2.svg',
+  //   name: 'Multi-Post Stories',
+  //   information1: 'CANOPY',
+  //   information2: 'Back End Dev',
+  //   information3: '2015',
+  //   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  //   technolgies1: 'html',
+  //   technologies2: 'css',
+  //   technologies3: 'javascript',
+  //   seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
+  //   seeSource: 'https://github.com/oshanedesign/My-Portfolio',
+  //   span1: 'See live',
+  //   span2: 'See source',
+  // },
+  // project-three-object {
+  //   img: 'images/Snapshoot-Portfolio3.svg',
+  //   name: 'Tonic',
+  //   information1: 'CANOPY',
+  //   information2: 'Back End Dev',
+  //   information3: '2015',
+  //   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  //   technolgies1: 'html',
+  //   technologies2: 'css',
+  //   technologies3: 'javascript',
+  //   seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
+  //   seeSource: 'https://github.com/oshanedesign/My-Portfolio',
+  //   span1: 'See live',
+  //   span2: 'See source',
+  // },
+  // project-four-object {
+  //   img: 'images/Snapshoot-Portfolio4.svg',
+  //   name: 'Multi-Post Stories',
+  //   information1: 'CANOPY',
+  //   information2: 'Back End Dev',
+  //   information3: '2015',
+  //   description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+  //   technolgies1: 'html',
+  //   technologies2: 'css',
+  //   technologies3: 'javascript',
+  //   seeLive: 'https://oshanedesign.github.io/My-Portfolio/',
+  //   seeSource: 'https://github.com/oshanedesign/My-Portfolio',
+  //   span1: 'See live',
+  //   span2: 'See source',
+  // },
 ];
 function getHtml(projectData) {
   return `
