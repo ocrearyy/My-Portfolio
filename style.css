@@ -24,6 +24,7 @@ body {
 .popup-buttons {
   display: flex;
 }
+
 .popup-default {
   display: none;
 }
@@ -40,9 +41,10 @@ body {
   padding: 1rem;
 }
 
-.disappear{
+.disappear {
   display: none;
 }
+
 .popup-paragraph {
   color: #344563;
   font-family: "Poppins", Arial, sans-serif;
@@ -80,8 +82,10 @@ body {
 .x-display {
   float: right;
   margin: 10px;
+
   /* background-image: url(images/xim.svg);
   background-repeat: no-repeat; */
+
   /* height: 25px;
   width: 25px; */
 }
@@ -186,8 +190,6 @@ body {
   list-style: none;
   padding: 0 2rem 0 1rem;
 }
-
-
 
 .main-Grid-Works {
   display: grid;
