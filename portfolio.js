@@ -1,5 +1,5 @@
 const portfolio = [
-   {
+  {
     img: 'images/Snapshoot-Portfolio1.svg',
     name: 'Tonic',
     information1: 'CANOPY',
@@ -162,7 +162,6 @@ const mobileMenu = document.querySelector('.default');
 const disappearMenu = document.querySelector('.x-icon');
 const disappearMenuOptions = document.querySelectorAll('.mobile-menu-li');
 const popupClick = document.querySelectorAll('.btn-Project');
-
 
 function display() {
   mobileMenu.classList.toggle('mobile-menu');
