@@ -184,22 +184,29 @@ popupClose.addEventListener('click', display2);
 const emailAddress = document.getElementById('mail');
 const form = document.getElementById('form');
 const error = document.querySelector('#error');
+const fName = document.getElementById('name');
+const email = document.getElementById('mail');
+const message = document.getElementById('msg');
 
+let storageData = {
+ name: '',
+ email: '',
+ message: '',
+}
+if (window.localStorage.getItem('datakey') !== null) {
+  storageData = JSON.parse(window.localStorage.getItem('datakey'));
+};
 form.addEventListener('submit', (e) => {
   if (emailAddress.value !== emailAddress.value.toLowerCase()) {
     error.textContent = 'email should be lower case';
     e.preventDefault();
-  } else error.textContent = '';
+  } else {error.textContent = '';
+    storageData.name = fName.value;
+    storageData.email = email.value;
+    storageData.message = message.value;
+    window.localStorage.setItem('datakey', JSON.stringify(storageData));
+};
 });
-function saveData()
-{
-let fName,email,msg;
-fName = doument.getElementById('name').value;
-email = doument.getElementById('mail').value;
-message = doument.getElementById('msg').value;
-
-localStorage.setItem('name',fName)
-localStorage.setItem('mail',email)
-localStorage.setItem('msg',message)
-}
-
+fName.value = storageData.name;
+email.value = storageData.email;
+message.value = storageData.message;
