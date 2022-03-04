@@ -189,9 +189,9 @@ const email = document.getElementById('mail');
 const message = document.getElementById('msg');
 
 let storageData = {
- name: '',
- email: '',
- message: '',
+  name: '',
+  email: '',
+  message: '',
 }
 if (window.localStorage.getItem('datakey') !== null) {
   storageData = JSON.parse(window.localStorage.getItem('datakey'));
@@ -205,8 +205,8 @@ form.addEventListener('submit', (e) => {
     storageData.email = email.value;
     storageData.message = message.value;
     window.localStorage.setItem('datakey', JSON.stringify(storageData));
-};
-});
+  };
+  });
 fName.value = storageData.name;
 email.value = storageData.email;
 message.value = storageData.message;
