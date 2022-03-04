@@ -508,7 +508,12 @@ textarea {
   padding: 10px;
 }
 
-#name::placeholder {
+#error {
+  color: red;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+#name1::placeholder {
   color: #172b4d;
 }
 
