@@ -13,8 +13,8 @@ const portfolio = [
     seeSource: 'https://github.com/oshanedesign/My-Portfolio',
     span1: 'See live',
     span2: 'See source',
-  },
-  {
+  }
+  
     img: 'images/Snapshoot-Portfolio2.svg',
     name: 'Multi-Post Stories',
     information1: 'CANOPY',
@@ -76,7 +76,7 @@ function getHtml(projectData) {
     ${projectData.description}
     </p>
     <div class="lang"></div>
-    <ul class="languages">
+    <ul class="languages"
       <li class="languages-List">${projectData.technolgies1}</li>
       <li class="languages-List">${projectData.technologies2}</li>
       <li class="languages-List">${projectData.technologies3}</li>
