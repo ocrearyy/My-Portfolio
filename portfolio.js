@@ -192,21 +192,22 @@ let storageData = {
   name: '',
   email: '',
   message: '',
-}
+};
 if (window.localStorage.getItem('datakey') !== null) {
   storageData = JSON.parse(window.localStorage.getItem('datakey'));
-};
+}
 form.addEventListener('submit', (e) => {
   if (emailAddress.value !== emailAddress.value.toLowerCase()) {
     error.textContent = 'email should be lower case';
     e.preventDefault();
-  } else {error.textContent = '';
+  } else {
+    error.textContent = '';
     storageData.name = fName.value;
     storageData.email = email.value;
     storageData.message = message.value;
     window.localStorage.setItem('datakey', JSON.stringify(storageData));
-  };
-  });
+  }
+});
 fName.value = storageData.name;
 email.value = storageData.email;
 message.value = storageData.message;
