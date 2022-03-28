@@ -1,16 +1,47 @@
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-Container {
-  background-color: #e5e5e5;
+  background-color: #edf6ff;
 }
 
 .navBar {
   display: flex;
   justify-content: space-between;
-  padding-right: 2rem;
-  background-color: white;
+  background-image: linear-gradient(to right, #437fc7 , #6daffe);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.menuDropDown {
+  color: #fff;
+}
+
+.blue-line {
+  color: #6daffe;
+  margin-left: 20px;
+}
+
+.section-1-icons {
+  color: #6daffe;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.blue-lines {
+  display:inline-block;
+  height: 5px;px;
+  width:200px;
+  border-radius:60px;
+  background:
+  radial-gradient(circle at calc(90% - 0px) 50%, transparent 90px,#6daffe 21px);
+  margin-left: 20px;
+  border: 2px solid #edf6ff;
+  background-color: #edf6ff;
 }
 
 .desktop-Nav {
@@ -127,11 +158,10 @@ body {
 }
 
 .my-logo {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  color: #6070ff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -149,13 +179,25 @@ body {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
   color: #000;
-  padding: 6rem 2rem 0 1rem;
+  padding-top: 6rem;
+  padding-right: 2rem;
+  margin-left: 20px;
   margin-top: 0.01rem;
+}
+
+.section-1-head-text {
+line-height: 5px;
+}
+
+.section-1-h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
 }
 
 .section1 p {
@@ -166,6 +208,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   color: #344563;
+  line-height: 25px;
 }
 
 .con {
@@ -175,11 +218,9 @@ body {
 .connect {
   display: flex;
   padding: 0 2rem 0 1rem;
-  font-family: sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
+  font-size: 15px;
+  color: #000
 }
 
 .connect-List a img {
@@ -208,7 +249,6 @@ body {
 .connect1 {
   display: flex;
   padding: 0 2rem 0 1rem;
-  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -236,7 +276,6 @@ body {
 }
 
 .tonic {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -259,7 +298,6 @@ body {
 }
 
 .canopy {
-  font-family: "Poppins", Arial, sans-serif;
   font-weight: bold;
   font-weight: 600;
   list-style: none;
@@ -267,14 +305,12 @@ body {
 }
 
 .sub-Text {
-  font-family: "Poppins", Arial, sans-serif;
   font-weight: bold;
   font-weight: 600;
   color: #7a869a;
 }
 
 .description-Text {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   color: #344563;
@@ -354,7 +390,6 @@ body {
 }
 
 .about-Myself p {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -372,7 +407,6 @@ body {
 
 .about-Text {
   width: 30%;
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -387,7 +421,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20rem;
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bolder !important;
   font-size: 20px !important;
@@ -500,7 +533,6 @@ label {
 
 input,
 textarea {
-  font-family: "Poppins", Arial, sans-serif;
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #999;
@@ -510,7 +542,6 @@ textarea {
 
 #error {
   color: red;
-  font-family: "Poppins", Arial, sans-serif;
 }
 
 #name1::placeholder {
@@ -568,7 +599,6 @@ textarea:focus {
 }
 
 #contact-Me {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -583,7 +613,6 @@ textarea:focus {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  font-family: "Poppins", Arial, sans-serif;
   color: #ebebff;
   text-align: center;
   padding-right: 1rem;
@@ -636,7 +665,6 @@ textarea:focus {
 
   .desktop-Nav-Li a {
     text-decoration: none;
-    font-family: "Poppins", Arial, sans-serif;
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -670,7 +698,6 @@ textarea:focus {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -683,7 +710,6 @@ textarea:focus {
   .connect {
     display: flex;
     padding: 0 2rem 0 1rem;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -702,7 +728,6 @@ textarea:focus {
   .section1 p {
     display: flex;
     padding: 0 2rem 0 1rem;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -785,7 +810,6 @@ textarea:focus {
   }
 
   .about-Myself p {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -827,7 +851,6 @@ textarea:focus {
   .connect1 {
     display: flex;
     padding: 0 2rem 0 1rem;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -837,7 +860,6 @@ textarea:focus {
 
   input,
   textarea {
-    font-family: "Poppins", Arial, sans-serif;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #999;
