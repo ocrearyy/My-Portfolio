@@ -172,7 +172,9 @@ body {
   background-size: contain;
   height: 100%;
   padding-bottom: 10rem; */
-  background: #fff 50% url(images/header-shapes\ mobile@2x.svg) no-repeat;
+  background: #fff 50% url(images/header-icon.webp) no-repeat;
+  background-position: top right;
+  background-size: 50%;
 }
 
 .section1 h1 {
