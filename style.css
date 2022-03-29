@@ -321,7 +321,6 @@ ul li::marker{
   font-style: normal;
   font-weight: normal;
   margin-top: 0.1rem;
-  width: 90%;
   height: auto;
   flex-wrap: wrap;
   line-height: 1.5rem;
@@ -729,6 +728,16 @@ textarea:focus {
     list-style: none;
     padding: 0 2rem 0 1rem;
     margin-left: 10rem;
+  }
+
+  .description-Text {
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 0.1rem;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
   }
 
   .section1 p {
