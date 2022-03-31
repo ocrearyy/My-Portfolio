@@ -398,14 +398,14 @@ ul li::marker{
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  color: #344563;
   width: 80%;
   height: auto;
   padding: 0.1rem 2rem 0.1rem 1rem;
+  line-height: 25px;
 }
 
 .about-Myself ul {
-  /* display: flex; */
+  display: flex;
   list-style: none;
   padding: 0 2rem 0 1rem;
 }
@@ -417,7 +417,6 @@ ul li::marker{
   font-size: 40px;
   display: flex;
   align-items: center;
-  color: #172b4d;
   padding: 0.1rem 2rem 0.1rem 1rem;
   line-height: 3rem;
 }
@@ -444,15 +443,16 @@ img[src*="downArrow.png"] {
 
 .btn-Project2 {
   width: 50%;
+  margin-left: 1rem;
   font-style: normal;
   align-items: center;
   text-align: center;
-  color: #396df2;
+  color: #fff;
   padding: 1rem;
   border-radius: 0.8rem;
-  border: 0.5px solid #396df2;
+  border: 0.5px solid #edf6ff;
   font-size: 20px;
-  margin-left: 1rem;
+  background-color: #6daffe;
 }
 
 .btn-Project2:hover {
@@ -503,9 +503,7 @@ img[src*="downArrow.png"] {
   padding: 1em;
   border: 1px solid #fff;
   border-top-left-radius: 5rem;
-  background-image: url(images/contact\ form\ shapes-mobile2.svg);
-  background-repeat: no-repeat;
-  background-position: right -1px top 10px;
+  background-image: linear-gradient(to right, #437fc7 , #6daffe);
   padding-bottom: 1px;
 }
 
@@ -599,7 +597,7 @@ textarea:focus {
 }
 
 .form-Container {
-  background-color: white;
+  background-color: #edf6ff;
   display: flex;
 }
 
@@ -828,11 +826,10 @@ textarea:focus {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #344563;
     width: 80%;
     height: auto;
     padding: 0.1rem 2rem 0.1rem 1rem;
-    line-height: 24px;
+    line-height: 25px;
   }
 
   .about-Myself-Skills-Ul {
