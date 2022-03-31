@@ -5,6 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- Font Awesome API -->
+    <script src="https://kit.fontawesome.com/030a66e167.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome API -->
+
+    <!-- google fonts Lato API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- google fonts Lato API -->
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-DSXZ5ECV2Q"></script>
     <script>
@@ -14,22 +26,24 @@
 
         gtag('config', 'G-DSXZ5ECV2Q');
     </script>
+
     <link rel="stylesheet" href="style.css">
-    <title>Oshane Design Portfolio</title>
+    
+
 </head>
 
 <body>
     <div class="main-Container">
         <header class="navBar">
-            <a class="my-logo" href="#">My Logo</a>
-            <nav><img class="menuDropDown" src="images/Union.svg" alt="menuDropDown"></nav>
-            <nav class="desktop-Nav">
+            <a class="my-logo" href="#">Oshane Design</a>
+            <nav><i class="fa-solid fa-bars menuDropDown"></i></nav>
+            <!-- <nav class="desktop-Nav">
                 <ul class="desktp-Nav-Ul">
                     <li class="desktop-Nav-Li"><a href="#">Portfolio</a></li>
                     <li class="desktop-Nav-Li"><a href="#">About</a></li>
                     <li class="desktop-Nav-Li"><a href="#">Contact</a></li>
                 </ul>
-            </nav>
+            </nav> -->
             <div class="default">
                 <div class="mobile-menu-header">
                     <img class="x-icon" src="images/IconCancel.svg" alt="xicon">
@@ -44,29 +58,36 @@
             </div>
         </header>
         <section class="section1">
-            <h1>I'm Oshane <br> Glad to see you!</h1>
-            <p>I am a software developer! I can help you build a product , feature or website Look through some of
+            <div class="section-1-head-text">
+                <h1>I am a Full-stack</h1>
+                <h2 class="section-1-h2">Web Developer</h2>
+            </div>
+            <div class="blue-lines">
+            </div>
+      
+            <p>I am a software developer! I can help you build a product , feature or website. Look through some of
                 my work and experience! If you like what you see and have a project you need coded, do not hestiate
                 to contact me.</p>
             <h2 class="connect">LET'S CONNECT</h2>
             <ul>
-                <li><img class="section1-Icons" src="images/social-media-icons.svg" alt="social-Media-Icons"></li>
+                <li><i class="fa-brands fa-github section-1-icons"></i></li>
+                <li><i class="fa-brands fa-linkedin-in section-1-icons"></i></li>
+                <li><i class="fa-brands fa-youtube section-1-icons"></i></li>
             </ul>
         </section>
         <section class="main-Grid-Works">
             <div class="works">
-                <!-- <div class="desktop-Img-Works">
-                    <img class="snapshoot" src="images/Snapshoot-Portfolio1.svg" alt="Snapshoot-Image">
+                <div class="desktop-Img-Works">
+                    <img class="snapshoot" src="images/pricing-panel-image.png" alt="Snapshoot-Image">
                 </div>
                 <div class="desktop-Text-Works">
-                    <h2 class="tonic">Tonic</h2>
+                    <h2 class="tonic">Pricing Panel</h2>
                     <ul class="sub-Points">
-                        <li class="canopy">CANOPY</li>
-                        <li class="sub-Text">Back End Dev</li>
-                        <li class="sub-Text">2015</li>
+                        <li class="canopy">Software</li>
+                        <li class="sub-Text">Front End Dev</li>
+                        <li class="sub-Text">2021</li>
                     </ul>
-                    <p class="description-Text">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required.</p>
+                    <p class="description-Text">This shows a three (3) tiered pricing plan that can be customized based on your preference.</p>
                     <div class="lang">
                         <ul class="languages">
                             <li><button class="languages-List" type="submit">html</button></li>
@@ -75,22 +96,21 @@
                         </ul>
                     </div>
                     <button class="btn-Project" type="submit">See Project</button>
-                </div> -->
+                </div>
             </div>
 
             <div class="works-Change">
-                <!-- <div class="desktop-Img-Works flip">
-                    <img class="snapshoot" src="images/Snapshoot-Portfolio2.svg" alt="Snapshoot-Image">
+                <div class="desktop-Img-Works flip">
+                    <img class="snapshoot" src="images/online-candy-store.png" alt="Snapshoot-Image">
                 </div>
                 <div class="desktop-Text-Works">
-                    <h2 class="tonic">Multi-Post Stories</h2>
+                    <h2 class="tonic">Online Candy Store</h2>
                     <ul class="sub-Points">
-                        <li class="canopy">CANOPY</li>
-                        <li class="sub-Text">Back End Dev</li>
-                        <li class="sub-Text">2015</li>
+                        <li class="canopy">Website</li>
+                        <li class="sub-Text">Front End Dev</li>
+                        <li class="sub-Text">2021</li>
                     </ul>
-                    <p class="description-Text">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required.</p>
+                    <p class="description-Text">This is a Online Candy Store that has the most tasty and sweet candy treats to fill your appetite.</p>
                     <div class="lang">
                         <ul class="languages">
                             <li><button class="languages-List" type="submit">html</button></li>
@@ -99,22 +119,21 @@
                         </ul>
                     </div>
                     <button class="btn-Project" type="submit">See Project</button>
-                </div> -->
+                </div>
             </div>
 
             <div class="works project3">
-                <!-- <div class="desktop-Img-Works">
-                    <img class="snapshoot" src="images/Snapshoot-Portfolio3.svg" alt="Snapshoot-Image">
+                <div class="desktop-Img-Works">
+                    <img class="snapshoot" src="images/score-keeper.png" alt="Snapshoot-Image">
                 </div>
                 <div class="desktop-Text-Works">
-                    <h2 class="tonic">Tonic</h2>
+                    <h2 class="tonic">Score Keeper</h2>
                     <ul class="sub-Points">
-                        <li class="canopy">CANOPY</li>
-                        <li class="sub-Text">Back End Dev</li>
-                        <li class="sub-Text">2015</li>
+                        <li class="canopy">Application</li>
+                        <li class="sub-Text">Front End Dev</li>
+                        <li class="sub-Text">2022</li>
                     </ul>
-                    <p class="description-Text">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required.</p>
+                    <p class="description-Text">I created this Score Keeper App for my friends to use as we were tired of trying to find a pen or pencil and a piece of paper to keep score.</p>
                     <div class="lang">
                         <ul class="languages">
                             <li><button class="languages-List" type="submit">html</button></li>
@@ -123,22 +142,21 @@
                         </ul>
                     </div>
                     <button class="btn-Project" type="submit">See Project</button>
-                </div> -->
+                </div>
             </div>
 
             <div class="works-Change project4">
-                <!-- <div class="desktop-Img-Works flip">
-                    <img class="snapshoot" src="images/Snapshoot-Portfolio4.svg" alt="Snapshoot-Image">
+                <div class="desktop-Img-Works flip">
+                    <img class="snapshoot" src="images/cc-campaign.PNG" alt="Snapshoot-Image">
                 </div>
                 <div class="desktop-Text-Works">
-                    <h2 class="tonic">Multi-Post Stories</h2>
+                    <h2 class="tonic">CC Global Summit</h2>
                     <ul class="sub-Points">
-                        <li class="canopy">CANOPY</li>
-                        <li class="sub-Text">Back End Dev</li>
-                        <li class="sub-Text">2015</li>
+                        <li class="canopy">Conference</li>
+                        <li class="sub-Text">Front End Dev</li>
+                        <li class="sub-Text">2022</li>
                     </ul>
-                    <p class="description-Text">A daily selection of privately personalized reads; no accounts or
-                        sign-ups required.</p>
+                    <p class="description-Text">The Global Summit brings together the community of experts, academics and activists who comprise the Creative Commons Affiliate network in a different country every two years. </p>
                     <div class="lang">
                         <ul class="languages">
                             <li><button class="languages-List" type="submit">html</button></li>
@@ -147,7 +165,7 @@
                         </ul>
                     </div>
                     <button class="btn-Project" type="submit">See Project</button>
-                </div> -->
+                </div>
             </div>
         </section>
         <div id="About" class="about-Myself">
@@ -156,19 +174,12 @@
                 <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some
                     of my work and experience! If you like what you see and have a project you need coded, don’t
                     hestiate to contact me.</p>
-                <h2 class="connect1">LET'S CONNECT</h2>
-                <ul class="con">
-                    <li class="connect-List"><a href="#"><img class="section1-Icons" src="images/git.svg"
-                                alt="social-Media-Icons"></a></li>
-                    <li class="connect-List"><a href="#"><img class="section1-Icons" src="images/linkin.svg"
-                                alt="social-Media-Icons"></a></li>
-                    <li class="connect-List"><a href="#"><img class="section1-Icons" src="images/finger.svg"
-                                alt="social-Media-Icons"></a></li>
-                    <li class="connect-List"><a href="#"><img class="section1-Icons" src="images/tweet.svg"
-                                alt="social-Media-Icons"></a></li>
-                    <li class="connect-List"><a href="#"><img class="section1-Icons" src="images/medium.svg"
-                                alt="social-Media-Icons"></a></li>
-                </ul>
+                    <h2 class="connect">LET'S CONNECT</h2>
+                    <ul>
+                        <li><i class="fa-brands fa-github section-1-icons"></i></li>
+                        <li><i class="fa-brands fa-linkedin-in section-1-icons"></i></li>
+                        <li><i class="fa-brands fa-youtube section-1-icons"></i></li>
+                    </ul>
                 <button class="btn-Project2" type="submit">See Resume</button>
             </div>
             <div class="desktop-About-Me-Skills">

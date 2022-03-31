@@ -1,16 +1,50 @@
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  min-width: 430px;
+  width: auto !important;
+  width: 430px;
 }
 
 .main-Container {
-  background-color: #e5e5e5;
+  background-color: #edf6ff;
 }
 
 .navBar {
   display: flex;
   justify-content: space-between;
-  padding-right: 2rem;
-  background-color: white;
+  background-image: linear-gradient(to right, #437fc7 , #6daffe);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.menuDropDown {
+  color: #fff;
+}
+
+.blue-line {
+  color: #6daffe;
+  margin-left: 20px;
+}
+
+.section-1-icons {
+  color: #6daffe;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+.blue-lines {
+  display:inline-block;
+  height: 5px;px;
+  width:200px;
+  border-radius:60px;
+  background:
+  radial-gradient(circle at calc(90% - 0px) 50%, transparent 90px,#6daffe 21px);
+  margin-left: 20px;
+  border: 2px solid #edf6ff;
+  background-color: #edf6ff;
 }
 
 .desktop-Nav {
@@ -127,11 +161,10 @@ body {
 }
 
 .my-logo {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  color: #6070ff;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -142,20 +175,34 @@ body {
   background-size: contain;
   height: 100%;
   padding-bottom: 10rem; */
-  background: #fff 50% url(images/header-shapes\ mobile@2x.svg) no-repeat;
+  background: #fff 50% url(images/header-icon.webp) no-repeat;
+  background-position: top right;
+  background-size: 230px;
 }
 
 .section1 h1 {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 20px;
   color: #000;
-  padding: 6rem 2rem 0 1rem;
+  padding-top: 6rem;
+  padding-right: 2rem;
+  margin-left: 20px;
   margin-top: 0.01rem;
+}
+
+.section-1-head-text {
+line-height: 5px;
+}
+
+.section-1-h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
 }
 
 .section1 p {
@@ -166,6 +213,7 @@ body {
   font-weight: normal;
   font-size: 16px;
   color: #344563;
+  line-height: 25px;
 }
 
 .con {
@@ -175,11 +223,9 @@ body {
 .connect {
   display: flex;
   padding: 0 2rem 0 1rem;
-  font-family: sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
+  font-size: 15px;
+  color: #000
 }
 
 .connect-List a img {
@@ -208,7 +254,6 @@ body {
 .connect1 {
   display: flex;
   padding: 0 2rem 0 1rem;
-  font-family: sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -236,13 +281,12 @@ body {
 }
 
 .tonic {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   color: #000;
   flex-wrap: wrap;
-  margin-top: 0.5rem;
+  margin-top: 20px;
   margin-bottom: 0.5rem;
 }
 
@@ -251,7 +295,7 @@ body {
   flex-wrap: wrap;
   gap: 20px;
   margin-left: -2.5rem;
-  margin-top: 0.1rem;
+  margin-top: 20px;
 }
 
 .sub-Points li {
@@ -259,27 +303,24 @@ body {
 }
 
 .canopy {
-  font-family: "Poppins", Arial, sans-serif;
   font-weight: bold;
   font-weight: 600;
   list-style: none;
-  color: #344563;
 }
 
 .sub-Text {
-  font-family: "Poppins", Arial, sans-serif;
   font-weight: bold;
   font-weight: 600;
-  color: #7a869a;
+}
+
+ul li::marker{
+  color: #6daffe;
 }
 
 .description-Text {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #344563;
   margin-top: 0.1rem;
-  width: 90%;
   height: auto;
   flex-wrap: wrap;
   line-height: 1.5rem;
@@ -298,10 +339,10 @@ body {
 }
 
 .languages-List {
-  color: #6070ff;
-  background-color: #ebebff;
+  color: #6daffe;
+  background-color: #edf6ff;
   border-radius: 0.3rem;
-  font-weight: 500;
+  font-weight: bold;
   border: none;
   padding-top: 0.2rem;
   padding-bottom: 0.2rem;
@@ -327,12 +368,12 @@ body {
   font-style: normal;
   align-items: center;
   text-align: center;
-  color: #396df2;
+  color: #fff;
   padding: 1rem;
   border-radius: 0.8rem;
-  border: 0.5px solid #396df2;
+  border: 0.5px solid #edf6ff;
   font-size: 20px;
-  background-color: white;
+  background-color: #6daffe;
 }
 
 .btn-Project:hover {
@@ -354,31 +395,28 @@ body {
 }
 
 .about-Myself p {
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  color: #344563;
   width: 80%;
   height: auto;
   padding: 0.1rem 2rem 0.1rem 1rem;
+  line-height: 25px;
 }
 
 .about-Myself ul {
-  /* display: flex; */
+  display: flex;
   list-style: none;
   padding: 0 2rem 0 1rem;
 }
 
 .about-Text {
   width: 30%;
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   display: flex;
   align-items: center;
-  color: #172b4d;
   padding: 0.1rem 2rem 0.1rem 1rem;
   line-height: 3rem;
 }
@@ -387,7 +425,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20rem;
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bolder !important;
   font-size: 20px !important;
@@ -406,15 +443,16 @@ img[src*="downArrow.png"] {
 
 .btn-Project2 {
   width: 50%;
+  margin-left: 1rem;
   font-style: normal;
   align-items: center;
   text-align: center;
-  color: #396df2;
+  color: #fff;
   padding: 1rem;
   border-radius: 0.8rem;
-  border: 0.5px solid #396df2;
+  border: 0.5px solid #edf6ff;
   font-size: 20px;
-  margin-left: 1rem;
+  background-color: #6daffe;
 }
 
 .btn-Project2:hover {
@@ -465,9 +503,7 @@ img[src*="downArrow.png"] {
   padding: 1em;
   border: 1px solid #fff;
   border-top-left-radius: 5rem;
-  background-image: url(images/contact\ form\ shapes-mobile2.svg);
-  background-repeat: no-repeat;
-  background-position: right -1px top 10px;
+  background-image: linear-gradient(to right, #437fc7 , #6daffe);
   padding-bottom: 1px;
 }
 
@@ -500,7 +536,6 @@ label {
 
 input,
 textarea {
-  font-family: "Poppins", Arial, sans-serif;
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #999;
@@ -510,7 +545,6 @@ textarea {
 
 #error {
   color: red;
-  font-family: "Poppins", Arial, sans-serif;
 }
 
 #name1::placeholder {
@@ -563,12 +597,11 @@ textarea:focus {
 }
 
 .form-Container {
-  background-color: white;
+  background-color: #edf6ff;
   display: flex;
 }
 
 #contact-Me {
-  font-family: "Poppins", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -583,7 +616,6 @@ textarea:focus {
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  font-family: "Poppins", Arial, sans-serif;
   color: #ebebff;
   text-align: center;
   padding-right: 1rem;
@@ -636,7 +668,6 @@ textarea:focus {
 
   .desktop-Nav-Li a {
     text-decoration: none;
-    font-family: "Poppins", Arial, sans-serif;
     font-size: 15px;
     display: flex;
     align-items: center;
@@ -670,7 +701,6 @@ textarea:focus {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 40px;
@@ -683,7 +713,6 @@ textarea:focus {
   .connect {
     display: flex;
     padding: 0 2rem 0 1rem;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -699,10 +728,19 @@ textarea:focus {
     margin-left: 10rem;
   }
 
+  .description-Text {
+    font-style: normal;
+    font-weight: normal;
+    margin-top: 0.1rem;
+    width: 90%;
+    height: auto;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
+  }
+
   .section1 p {
     display: flex;
     padding: 0 2rem 0 1rem;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -785,15 +823,13 @@ textarea:focus {
   }
 
   .about-Myself p {
-    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    color: #344563;
     width: 80%;
     height: auto;
     padding: 0.1rem 2rem 0.1rem 1rem;
-    line-height: 24px;
+    line-height: 25px;
   }
 
   .about-Myself-Skills-Ul {
@@ -827,7 +863,6 @@ textarea:focus {
   .connect1 {
     display: flex;
     padding: 0 2rem 0 1rem;
-    font-family: sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -837,7 +872,6 @@ textarea:focus {
 
   input,
   textarea {
-    font-family: "Poppins", Arial, sans-serif;
     width: 100%;
     box-sizing: border-box;
     border: 1px solid #999;
